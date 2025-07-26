@@ -2,16 +2,18 @@ class UsersController < ApplicationController
   has_secure_password
 
   ##### Validations #####
-  ## .This data is required and must satisfy the
-  ## .associated validations defined.
+  ## -This data is required and must satisfy the
+  ## -associated validations defined.
   validate :name, presence: true
   validate :email, presence: true, uniqueness: true
   validate :password_digest, presence: true
   #####
 
   ##### User Views #####
-  ## .These are the main html views that the sites
-  ## .users will work with.
+  ## -These are the main html views that the sites
+  ## -users will work with. Rails implicitly knows
+  ## -that each method renders the corresponding
+  ## -html file. (e.g. bookmarks => bookmarks.html)
   def user_dashboard
   end
 
@@ -20,4 +22,8 @@ class UsersController < ApplicationController
 
   def list_a_pet
   end
+
+  def bookmarks
+  end
+  #####
 end
