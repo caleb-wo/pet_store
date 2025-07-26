@@ -6,7 +6,7 @@ class UsersController < ApplicationController
   ## -associated validations defined.
   validate :name, presence: true
   validate :email, presence: true, uniqueness: true
-  validate :password_digest, presence: true
+  validate :password_digest, presence: true, uniqueness: true
   #####
 
   ##### User Views #####
