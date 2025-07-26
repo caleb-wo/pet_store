@@ -26,7 +26,7 @@ class UsersController < ApplicationController
 
   def bookmarks
     # -Users will be able to 'bookmark' a pet or pets.
-    # -These pets can be then views later in dedicated
+    # -These pets can be then viewed later in a dedicated
     # -dashboard (see Pages controller).
   end
   #####
