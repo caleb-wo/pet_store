@@ -33,4 +33,5 @@ class AdminsController < ApplicationController
     # -A detailed 'viewer' page for an admin
     # -to see certain user details.
   end
+  #####
 end
