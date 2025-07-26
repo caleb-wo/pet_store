@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :admins
+  resources :users
   get "pages/home"
   resources :dogs
   resources :cats
