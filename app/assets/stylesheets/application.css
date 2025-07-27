@@ -8,3 +8,19 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+ /*##### IMPORTS #####*/
+ /* ### Main Pages */
+ /* # Global */
+ :root {
+    /* these are place holders */
+    --color-one: #000000;
+    --color-two: #830404;
+    --color-three: #646440;
+    --color-four: #238920;
+ }
+ @import 'global/header.scss';
+ @import 'global/footer.scss';
+ /* # Public Pages */
+ /* # User Pages */
+ /* # Admin Pages */
