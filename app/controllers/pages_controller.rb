@@ -11,12 +11,9 @@ class PagesController < ApplicationController
   def pet_focus
   end
 
-  def buy_page
+  def checkout
   end
 
-  def cat_dashboard
-  end
-
-  def dog_dashboard
+  def pet_dashboard
   end
 end
