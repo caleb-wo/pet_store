@@ -19,10 +19,10 @@ class AdminsController < ApplicationController
   def admin_profile
   end
 
-  def stats_dashboard
+  def stats
   end
 
-  def admin_inspector
+  def inspector
     # -The inspector will be a tool
     # -for admins to search for users.
     # -It's how they access the user
